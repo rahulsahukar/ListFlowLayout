@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <FrameLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:background="@drawable/normal_bg"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:textSize="18sp"
+            android:alpha=".8"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="bottom"
+            android:text="Rahul"/>
+
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="top|right"
+            android:src="@drawable/delete"/>
+    </FrameLayout>
+</LinearLayout>
